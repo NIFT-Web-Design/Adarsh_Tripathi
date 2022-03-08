@@ -1,0 +1,8 @@
+.overbrownbox {
+  background-color: #EFCBCA;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 84px;
+  
+}
