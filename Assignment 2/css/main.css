@@ -16,7 +16,7 @@ body{font-family: serif;
 header {
   /* align-items: center; */
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: flex-start;
 
 
@@ -29,7 +29,7 @@ header div {
   color: white;
   display: inline-flex;
   flex-flow: row;
-  margin-left: 675PX;
+  margin-left: 15PX;
   background-color: #003780;
   justify-content: space-around;
   align-items: center;
