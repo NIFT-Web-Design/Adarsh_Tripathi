@@ -11,8 +11,8 @@ header{
   justify-content: space-between;
   display: flex;
   align-items: center;
-
 }
+
 #logo{
   margin: auto;
   margin-left: 300px;
@@ -72,7 +72,7 @@ padding-top: 100px;
 p{
   font-size: 16px;
     font-weight: normal;
-    font-family: sans-serif;
+    font-family: 'Oxygen';
     padding: 50px 150px 30px 150px;
     text-align: center;
     line-height: 1.5;
@@ -106,14 +106,12 @@ h2{
   font-size: 56px;
   font-family: monospace;
   font-weight: 100;
-  color:#ffffff;
+  color:#054263;
   padding: 20px 0px 600px 0px;
   text-align: center;
 }
 
-.theactualmotifs{
-  background-color:#054263;
-}
+
 
 h3{
   justify-content: center;
@@ -123,6 +121,10 @@ h3{
   color:#054263;
   padding: 20px 0px 20px 0px;
   text-align: center;
+}
+
+.actual_motifs{
+  display: block;
 }
 
 
