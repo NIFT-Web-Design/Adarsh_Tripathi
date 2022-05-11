@@ -48,7 +48,7 @@ nav a{
 
 #firstpicture{
   margin: auto;
-  margin-left: 100px;
+  margin-left: 217px;
   margin-top: 50px;
   padding: inherit;
 }
@@ -65,7 +65,7 @@ h1{
   color: #054263;
   font-weight: 700;
   font-size: 48px;
-  padding-left: 450px;
+  padding-left: 381px;
 padding-top: 100px;
 }
 
@@ -73,8 +73,8 @@ p{
   font-size: 16px;
     font-weight: normal;
     font-family: 'Oxygen';
-    padding: 50px 150px 30px 150px;
-    text-align: center;
+    padding: 50px 250px 30px 250px;
+    text-align: justify;
     line-height: 1.5;
     margin: inherit
 }
@@ -83,7 +83,7 @@ p{
 .theactualmotifs {
   justify-content: center;
   font-size: 48px;
-  font-family: monospace;
+  font-family: 'Oxygen';
   font-weight:400px;
   color:#054263;
   padding: 20px 0px 20px 0px;
@@ -93,10 +93,10 @@ p{
 
 
 #motifsinsides{
-  padding-left: 1700px;
+  padding-left: 1699px;
 }
 #motifsinleft{
-  padding-right: 1700px;
+  padding-right: 1699px;
   padding-bottom: 20px;
 }
 
@@ -104,10 +104,10 @@ p{
 h2{
   justify-content: center;
   font-size: 56px;
-  font-family: monospace;
+  font-family: 'Oxygen';
   font-weight: 100;
   color:#054263;
-  padding: 20px 0px 600px 0px;
+  padding: 20px 0px 20px 0px;
   text-align: center;
 }
 
@@ -116,8 +116,9 @@ h2{
 h3{
   justify-content: center;
   font-size: 56px;
-  font-family: monospace;
-  font-weight:400;
+  font-family:'Oxygen';
+  font-style: normal;
+  font-weight:300;
   color:#054263;
   padding: 20px 0px 20px 0px;
   text-align: center;
