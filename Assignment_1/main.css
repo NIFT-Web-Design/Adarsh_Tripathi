@@ -1,0 +1,446 @@
+/* These are my styles */
+.headertop {
+  background-color: #2A2A2A;
+    box-shadow: 0px 3px 8px 0px rgb(0 0 0 / 50%);
+    height: 84px
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+ nav.navtop{
+ padding: 7px 15px;
+ border-radius: 2px;
+ display: inline-block;
+ text-transform: uppercase;
+ }
+
+ nav.navtop ul.ulourservice{
+   padding: 7px 15px;
+ }
+
+nav ul li#ContactUs a{
+   color: #FDB530;
+ }
+ul.ulourservice a{
+  margin: 0 8px;
+}
+  /* li.ContactUs{
+    color: inherit;
+  } */
+
+nav.navtop li a{
+  color: #d4d4d4;
+}
+
+ nav.navtop li {
+   display: inline-block;
+    padding: 7px 15px;
+    font-weight: 600;
+ }
+
+ /*this is the code segment to hide underline*/
+  a:link {
+    text-decoration: none;
+   }
+ /*code segment ends here*/
+
+
+section.headerourservices {
+  background-image: url(https://www.optimal-partners.com/site_images/ourServicesHeader.jpg);
+  background-position: center;
+}
+
+ /* .Ourservices{
+  background-color: #107698;
+  color: white;
+} */
+
+.headerourservices{
+  width: 100%;
+  text-align: center;
+  padding: 72px 0;
+}
+
+.headerourservices h1{
+  font-size: 48px;
+  color: #fff;
+  font-weight: 400;
+  font-family: 'Roboto', sans-serif;
+}
+ .headertop{
+   display: flex;
+   text-transform: uppercase;
+   font-size: 12px;
+   align-items: center;
+   justify-content: center;
+ }
+
+
+
+
+
+/* ul.ulourservice {
+background-color: #2A2A2A;
+} */
+li.ourservicesblue{
+  background-color: #107698;
+  padding: 7px 15px 6px;
+  border-radius: 2px;
+
+}
+
+
+body{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+p{
+  line-height: 1.4;
+  color: #7f969e;
+}
+
+section.Whitebackgroundcontainer{
+  background-color: White;
+  padding: 50px 0;
+}
+
+.Greybackgroundcontainer{
+  background-color: #EDEff3;
+}
+
+.Greybackgroundcontainerlast{
+  background-color: #EDEff3;
+}
+
+.footerdarkgrey{
+  background-color: #504f4f;
+  color: #c7c5c5;
+}
+
+section.Whitebackgroundcontainer h2{
+  color: #0a465B;
+  font-size: 34px;
+  font-weight: 300;
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+section.Whitebackgroundcontainer p{
+      color: #7f969e;
+      max-width: 900px;
+      text-align: center;
+      font-size: 18px;
+      padding: 10px 0;
+      line-height: 1.4;
+      margin: auto;
+
+}
+section.Whitebackgroundcontainer p span{
+  color: #FFA500;
+}
+
+section.Greybackgroundcontainer h2{
+  color: #0a465B;
+  font-size: 34px;
+  font-weight: 300;
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+section.Greybackgroundcontainer p{
+      color: #7f969e;
+      max-width: 900px;
+      text-align: center;
+      font-size: 18px;
+      padding: 10px 0;
+      line-height: 1.4;
+      margin: auto;
+    }
+
+section.Greybackgroundcontainer div.Greybackgroundflexcontainer p{
+      color: #7f969e;
+      background-color: white;
+      max-width: 263px;
+      text-align: center;
+      font-size: 16px;
+      padding: 10px 0;
+      line-height: 1.4;
+      margin: auto;
+}
+section.Greybackgroundcontainer div.Greybackgroundflexcontainer h3{
+    background-color: #107698;
+    text-align: center;
+    margin-top: 0px;
+    font-size: 20px;
+    padding: 25px 20px 25px;
+    font-variant: small-caps;
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+    color: #fff;
+    font-weight: 300;
+}
+section.whitebackgroundcontainernoboxes h2{
+  color: #0a465B;
+  font-size: 34px;
+  font-weight: 300;
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+section.whitebackgroundcontainernoboxes p{
+      color: #7f969e;
+      background-color: white;
+      max-width: 900px;
+      text-align: center;
+      font-size: 18px;
+      padding: 10px 0;
+      line-height: 1.4;
+      margin: auto;
+}
+section.whitebackgroundcontainernoboxes div.flexcontainer article.parttime h4{
+  font-size: 18px;
+  color: #0a465b;
+  border-bottom: 2px #FDB530 solid;
+  text-align: center;
+  width: 80%;
+  margin: auto;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-weight: 700;
+}
+section.Greybackgroundcontainer div.Greybackgroundflexcontainer article.strategyconsulting p span{
+  color: #FFA500;
+}
+
+
+
+.Greybackgroundcontainer .Greybackgroundflexcontainer{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  gap: 32px;
+  width: 1100px;
+  margin-top:48px;
+}
+.flexcontainer article.parttime{
+  max-width: 350px;
+}
+.Whitebackgroundcontainer,.Greybackgroundcontainer, .whitebackgroundcontainernoboxes,.Greybackgroundcontainer, .Greybackgroundcontainerlast, .footerdarkgrey{
+  padding: 54px 0;
+}
+
+
+.flexcontainer {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  gap: 24px;
+  width: 1100px;
+  margin: 48px auto 0;
+}
+
+ section.Greybackgroundcontainer article.strategyconsulting h3{
+   font-size: 16px;
+   font-weight: 300;
+   padding: 0 16px;
+   min-height: 80px;
+   display: flex;
+   text-align: center;
+   justify-content: center;
+   align-items: center;
+   margin: auto;
+}
+
+div.Greybackgroundflexcontainer {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  gap: 24px;
+  width: 1100px;
+  margin: 48px auto 0;
+}
+
+section.Greybackgroundcontainer div.Greybackgroundflexcontainer{
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  gap: 32px;
+  margin-top: 48px;
+  width: 1100px;
+}
+
+  section.Greybackgroundcontainer article.strategyconsulting p{
+    border-top: 5px solid #d1d1d0;
+    padding: 24px 20px;
+    box-shadow: 0px -2px 5px 0px rgb(0 0 0 / 30%);
+    display: inline-block;
+    width: 260px;
+    height: 220px;
+}
+
+section.Greybackgroundcontainer div.Greybackgroundflexcontainer article p{
+  border-top: 5px solid #d1d1d0;
+  padding: 24px 20px;
+  box-shadow: 0px -2px 5px 0px rgb(0 0 0 / 30%);
+  display: inline-block;
+  width: 260px;
+  height: 220px;
+}
+section.Greybackgroundcontainer div.Greybackgroundflexcontainer article h3{
+  font-size: 16px;
+}
+
+section.Greybackgroundcontainer div.Greybackgroundflexcontainer article p span{
+  color: Orange;
+}
+
+section.Greybackgroundcontainerlast h2{
+  font-size: 34px;
+      font-weight: 300;
+      color: #0a465b;
+      text-align: center;
+      margin-bottom: 32px;
+  }
+  #smallBox {
+  height: 350px;
+}
+
+ .Services #getInTouch h2 {
+  color: #0a465b;
+  font-size: 32px;
+  font-weight: 300;
+  text-align: center;
+  padding: 20px 0px 30px 0px;
+  margin-bottom: 30px;
+}
+
+.Services .container {
+  display: flex;
+  justify-content: center;
+}
+
+.Services .container .contactUs {
+  /* display: inline-block; */
+
+}
+
+.Services .container .hoverbutton {
+  /* display: inline-block;
+  margin-left: 235px; */
+}
+
+
+
+#contactpic {
+  border-radius: 50%;
+  border: 8px solid rgba(253, 181, 48, .7);
+  /* margin-left: 130px; */
+  position: relative;
+  left: 30px;
+  bottom: 140px;
+  margin-left: 15px;
+  margin-top: 70px;
+
+}
+
+#happytohelp {
+  color: grey;
+  font-weight: 500;
+  border-top: 1px solid #107698;
+  border-bottom: 1px solid #107698;
+  width: 260px;
+  padding: 10px 0px;
+  text-align: center;
+  line-height: 1.4;
+  display: inline-block;
+  margin-top: 16px;
+  position: relative;
+  bottom: 90px;
+  right: 190px;
+}
+
+div.contactUs #separationLine {
+  position: absolute;
+  right: 830px;
+  height: 25%;
+}
+div #button h3{
+  width: 165px;
+    font-size: 22px;
+    text-transform: capitalize;
+    color: white;
+    padding: 15px 0px 15px 50px;
+    background-color: #107698;
+    border: 2px solid #FDB530;
+    border-radius: 4px;
+    transition: .2s;
+    position: relative;
+    top: -20px;
+    margin-left: 65px;
+    margin-bottom: 20px;
+    align-items: center;
+}
+/* .hoverbutton {
+  padding-top: 90px;
+} */
+
+.hoverbutton .connectContainer {
+  min-width: 350px;
+  max-width: 350px;
+  text-align: center;
+  border-top: 4px solid #dfdfe0;
+  margin-top: 35px;
+  padding-top: 25px;
+  position: relative;
+  top: -55px;
+  right: 75px;
+}
+
+
+/* .hoverbutton a #button {
+  background-color: #107698;
+  border: 2px solid #FDB530;
+  border-radius: 6px;
+  color: white;
+  font-size: 20px;
+  width: 165px;
+  padding: 15px 0px 15px 50px;
+  transition: .2s;
+  position: relative;
+  top: -100px;
+  right: 50px;
+  margin-left: 65px;
+  box-shadow: 0px 3px 5px 0px rgb(0 0 0 / 50%);
+  display: inline-block;
+} */
+
+.connectContainer #linkedImg, #twitterImg, #facebookImg {
+  border: 5px solid #dfdfe0;
+  border-radius: 50%;
+  margin: 0 12px;
+  height: 5%;
+}
+div.connectContainer{
+  max-width: 400px;
+display: inline-block;
+padding-left: 80px;
+}
+
+ div.imgtrustedby img{
+  display: block;
+    margin: 24px auto 0;
+}
+
+.footerdarkgrey {
+  padding: 40px 0;
+    background-color: #504f4f;
+    text-align: center;
+    color: #c7c5c5;
+    font-size: 18px;
+    line-height: 1.4;
+    display: block;
+}

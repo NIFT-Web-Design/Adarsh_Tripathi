@@ -140,7 +140,7 @@ h2{
   font-family: 'Oxygen';
   font-weight: 100;
   color:#054263;
-  padding: 20px 0px 20px 0px;
+  padding: 20px 0px 48px 0px;
   text-align: center;
 }
 
@@ -185,19 +185,15 @@ h3{
   height: 100%
 }
 
-.photos h1 {
-  font-size: 36px;
-  font-weight: 400;
-  color: #5C3A2F
-}
 
+/*
 .photos p {
   color: #777;
   font-size: 16px;
   font-weight: 300;
   line-height: 24px;
   padding: 10px;
-}
+}*/
 
 .photoflex {
   flex-basis: 32%;
